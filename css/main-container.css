@@ -1,0 +1,108 @@
+.center-content{
+    display: grid;
+    gap: 0.5rem;
+    width: 85%;
+    height: auto;
+    /* position: relative; */
+    
+    /* position: sticky;
+    top: 55px; */
+    background-color: #0a0a0a;
+    /* overflow-y: scroll; */
+}
+.sub-center-content, .sub-center-content-1{
+    display: grid;
+    grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+    padding-top: 1rem;
+    /* position: sticky; */
+    /* top: 55; */
+    /* background: #0a0a0a; */
+    gap: 0.5rem;
+    /* z-index: 5; */
+    padding: 0 1rem;
+    grid-template-areas: "v-1 v-2 v-3 v-4"
+                         "v-1 v-2 v-3 v-4"
+                         "v-1 v-2 v-3 v-4"
+                         "v-1 v-2 v-3 v-4";
+}
+.sub-center-content-1{
+    margin-top: 1rem;
+}
+.sub-center-content i{
+    padding-left: 0.3rem;
+}
+
+.v-1{
+    width: 99%;
+   height: 220px;
+grid-area: v-1;
+
+}
+.v-2{
+     width: 99%;
+     height: 220px;
+grid-area: v-2;
+}
+.v-3{
+     width: 99%;
+     height: 220px;
+grid-area: v-3;
+}
+.v-4{
+     width: 99%;
+     height: 220px;
+grid-area: v-4;
+}
+.v-logo{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.logo-title{
+    width: 90%;
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+.v-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+strong{
+    color: white;
+    /* text-transform: capitalize; */
+    font-size: large;
+}
+.text-color{
+    padding-left: 3rem;
+    color: #f1f1f1ad;
+    text-transform: lowercase;
+    font-size: medium;
+}
+.top-center-content{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: #1f1f1f;
+    border-top: 1px solid #ffffff38;
+    border-bottom: 1px solid #ffffff38;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* position: fixed; */
+    /* top: 45; */
+    /* z-index: 10; */
+    /* display: none; */
+}
+.top-center-content ul span{
+    display: none;
+}
+.top-center-content ul img{
+    border: 1px solid red;
+    margin-left: 10px;
+    display: none;
+}
+
+
